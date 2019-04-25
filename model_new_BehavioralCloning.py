@@ -68,7 +68,7 @@ model.add(Conv2D(filters = 48,kernel_size = (5,5),strides = (2,2),activation= 'r
 
 model.add(Conv2D(filters = 64,kernel_size = (3,3),strides = (1,1),activation = 'relu'))
 model.add(Conv2D(filters = 64,kernel_size = (3,3),strides = (1,1),activation = 'relu'))
-model.add(Dropout(0.25))
+#model.add(Dropout(0.25))
 model.add(Flatten())
 model.add(Dense(100,activation='relu'))
 model.add(Dropout(0.5))
