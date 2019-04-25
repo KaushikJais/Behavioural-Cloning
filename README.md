@@ -16,7 +16,6 @@ The model contains dropout layers in order to reduce overfitting (model_new_Beha
 The training data is shuffled for each epoch as the parameter shuffle=True is chosen. The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 ### Model parameter tuning
 The model used an adam optimizer, so the learning rate was not tuned manually (model_new_BehavioralCloning.py).
-![alt text](/examples/markdown.png "Logo Title Text 1")
 
 ### Appropriate training data
 Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road. The sample dataset was used for this project.
